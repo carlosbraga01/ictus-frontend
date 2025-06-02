@@ -3,6 +3,7 @@ import { authApi } from './auth';
 import { eventosApi } from './events';
 import { dashboardApi } from './dashboard';
 import { ticketsApi } from './tickets';
+import { ordersApi } from './orders';
 
 export {
   apiClient,
@@ -10,4 +11,5 @@ export {
   eventosApi,
   dashboardApi,
   ticketsApi,
+  ordersApi,
 };
